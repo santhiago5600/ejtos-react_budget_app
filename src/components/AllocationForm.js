@@ -29,7 +29,7 @@ const AllocationForm = (props)=>{
             })
         }
     }
-}
+
 return (
     <div>
         <div className='row'>
@@ -69,4 +69,5 @@ return (
         </div>
     </div>
 )
+}
 export default AllocationForm;

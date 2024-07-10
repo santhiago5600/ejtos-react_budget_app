@@ -22,13 +22,11 @@ const ExpenseItem= (props)=>{
     }
     return (
         <tr>
-            <tr>
-                <td>{props.name}</td>
-                <td>{props.cost}</td>
-                <td><button onClick={event=>increaseAllocation(props.name)}>+</button></td>
-                <td><TiDelete size={'1.5rem'} onClick={handleDeleteExpense}></TiDelete></td>
-            </tr>
-        </tr>
+            <td>{props.name}</td>
+            <td>{props.cost}</td>
+            <td><button onClick={event=>increaseAllocation(props.name)}>+</button></td>
+            <td><TiDelete size={'1.5rem'} onClick={handleDeleteExpense}></TiDelete></td>
+        </tr>    
     )
 }
 export default ExpenseItem;
